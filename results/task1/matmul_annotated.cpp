@@ -44,18 +44,15 @@ int main()
 
 
     // TODO: Paralellize 
-    ANNOTATE_SITE_BEGIN(Bucle1Exterior);
+    ANNOTATE_SITE_BEGIN(Bucle1);
     for (i = 0; i < n; i++)
     {
         ANNOTATE_ITERATION_TASK();
-        ANNOTATE_SITE_BEGIN(Bucle1Interior);
         for (j = 0; j < n; j++)
         {
-            ANNOTATE_ITERATION_TASK();
             angle = 2.0 * pi * i * j / (double)n;
             a[i][j] = s * (sin(angle) + cos(angle));
         }
-        ANNOTATE_SITE_END();
     }
     ANNOTATE_SITE_END();
 
@@ -63,17 +60,14 @@ int main()
     //  Loop 1: Evaluate B.
     //
     // TODO: Paralellize 
-    ANNOTATE_SITE_BEGIN(Bucle2Exterior);
+    ANNOTATE_SITE_BEGIN(Bucle2);
     for (i = 0; i < n; i++)
     {
         ANNOTATE_ITERATION_TASK();
-        ANNOTATE_SITE_BEGIN(Bucle2Interior);
         for (j = 0; j < n; j++)
         {
-            ANNOTATE_ITERATION_TASK();
             b[i][j] = a[i][j];
         }
-        ANNOTATE_SITE_END();
     }
     ANNOTATE_SITE_END();
 
@@ -82,23 +76,17 @@ int main()
     //
     // TODO: Paralellize 
     wtime = omp_get_wtime();
-     ANNOTATE_SITE_BEGIN(Bucle3Exterior);
+    ANNOTATE_SITE_BEGIN(Bucle3);
     for (i = 0; i < n; i++)
     {
         ANNOTATE_ITERATION_TASK();
-        ANNOTATE_SITE_BEGIN(Bucle3Medio);
         for (j = 0; j < n; j++)
         {
-            ANNOTATE_ITERATION_TASK();
-            ANNOTATE_SITE_BEGIN(Bucle3Interior);
             for (k = 0; k < n; k++)
             {
-                ANNOTATE_ITERATION_TASK();
                 c[i][j] = c[i][j] + a[i][k] * b[k][j];
             }
-            ANNOTATE_SITE_END();
         }
-        ANNOTATE_SITE_END();
     }
     ANNOTATE_SITE_END();
 
