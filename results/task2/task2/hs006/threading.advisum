@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename="/home/enrique/Desktop/lab4-bc-enriquealbalateprieto/results/task2/matmul_annotated_NuevoTamañoArrays.cpp"
+           line_no="80"
+           routine="main"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="1.999633E-01"
+           trip_counts="375"
+           func_instance="7"
+           priority="0"/>
+  <hotspot filename="/home/enrique/Desktop/lab4-bc-enriquealbalateprieto/results/task2/matmul_annotated_NuevoTamañoArrays.cpp"
+           line_no="83"
+           routine="main"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="1.999633E-01"
+           trip_counts="375"
+           func_instance="6"
+           priority="0"/>
+  <hotspot filename="/home/enrique/Desktop/lab4-bc-enriquealbalateprieto/results/task2/matmul_annotated_NuevoTamañoArrays.cpp"
+           line_no="85"
+           routine="main"
+           is_vectorized="0"
+           self_time="1.999633E-01"
+           total_time="1.999633E-01"
+           trip_counts="375"
+           func_instance="5"
+           priority="0"/>
+  <hotspot filename="/home/enrique/Desktop/lab4-bc-enriquealbalateprieto/results/task2/matmul_annotated_NuevoTamañoArrays.cpp"
+           line_no="51"
+           routine="main"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="1.003669E-02"
+           trip_counts="375"
+           func_instance="2"
+           priority="0"/>
+  <hotspot filename="/home/enrique/Desktop/lab4-bc-enriquealbalateprieto/results/task2/matmul_annotated_NuevoTamañoArrays.cpp"
+           line_no="48"
+           routine="main"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="1.003669E-02"
+           trip_counts="375"
+           func_instance="4"
+           priority="0"/>
+</IntelParallelAdvisorSummary >

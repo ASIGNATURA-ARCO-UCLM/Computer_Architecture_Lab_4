@@ -1,0 +1,8 @@
+
+=== Start: [2022/11/24 00:38:59] === 
+Analysis started...
+Result file: /home/enrique/intel/advixe/projects/lab4Tarea2/e000/trc001/trc001.advixe 
+Application exit code: 0 
+Result file: /home/enrique/intel/advixe/projects/lab4Tarea2/e000/trc001/trc001.advixe 
+Analysis completed
+=== End: [2022/11/24 00:39:03] === 

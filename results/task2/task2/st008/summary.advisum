@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="0.1" 
+                             kind="DATAKIND_SUITABILITY" 
+                             duration_total="2.802670E-01"
+                             num_processors="64" 
+                             num_mic_threads="128" 
+                             threading_paradigm="tbb" 
+                             target_system="cpu" 
+                             program_max_gain="2.291404E+01" >
+  <site filename="/home/enrique/Desktop/lab4-bc-enriquealbalateprieto/results/task1/matmul_annotated.cpp" 
+        line_no="47" 
+        label="Bucle1">
+    <suitability duration_total="7.142284E-03" 
+                 num_instances="1">
+      <estimated_speedup>
+       <scaling threading_paradigm="tbb" 
+                site_overhead="false" 
+                task_overhead="false" 
+                task_chunking="false" 
+                lock_overhead="false" 
+                lock_contention="false" >
+          <scale cpu="8" speedup="3.234763E-04" />
+        </scaling>
+      </estimated_speedup>
+    </suitability>
+  </site>
+  <site filename="/home/enrique/Desktop/lab4-bc-enriquealbalateprieto/results/task1/matmul_annotated.cpp" 
+        line_no="63" 
+        label="Bucle2">
+    <suitability duration_total="1.758849E-03" 
+                 num_instances="1">
+      <estimated_speedup>
+       <scaling threading_paradigm="tbb" 
+                site_overhead="false" 
+                task_overhead="false" 
+                task_chunking="false" 
+                lock_overhead="false" 
+                lock_contention="false" >
+          <scale cpu="8" speedup="2.897750E-04" />
+        </scaling>
+      </estimated_speedup>
+    </suitability>
+  </site>
+  <site filename="/home/enrique/Desktop/lab4-bc-enriquealbalateprieto/results/task1/matmul_annotated.cpp" 
+        line_no="79" 
+        label="Bucle3">
+    <suitability duration_total="2.642079E-01" 
+                 num_instances="1">
+      <estimated_speedup>
+       <scaling threading_paradigm="tbb" 
+                site_overhead="false" 
+                task_overhead="false" 
+                task_chunking="false" 
+                lock_overhead="false" 
+                lock_contention="false" >
+          <scale cpu="8" speedup="4.519987E-03" />
+        </scaling>
+      </estimated_speedup>
+    </suitability>
+  </site>
+  <task filename="/home/enrique/Desktop/lab4-bc-enriquealbalateprieto/results/task1/matmul_annotated.cpp" 
+        line_no="50" 
+        label="" 
+        duration_total="2.729686E-01" 
+        num_instances="900" />
+</IntelParallelAdvisorSummary >

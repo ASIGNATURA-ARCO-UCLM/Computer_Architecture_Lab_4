@@ -1,0 +1,1679 @@
+(version 3 2)
+
+[ Sites ]
+(site Bucle1 0 "/home/enrique/Desktop/lab4-bc-enriquealbalateprieto/results/task1/matmul_annotated.cpp" 47 Bucle1
+    "/home/enrique/Desktop/lab4-bc-enriquealbalateprieto/results/task1/ejecutable" main "/home/enrique/Desktop/lab4-bc-enriquealbalateprieto/results/task1/matmul_annotated.cpp" 47 "0x1a23" NATIVE CALL
+    "/lib/x86_64-linux-gnu/libc.so.6" __libc_start_main "/build/glibc-eX1tMB/glibc-2.31/csu/../csu/libc-start.c" 263 "0x27026" NATIVE CALL
+    "/home/enrique/Desktop/lab4-bc-enriquealbalateprieto/results/task1/ejecutable" _start "" -1 "0x128d" NATIVE CALL
+)
+(site Bucle2 1 "/home/enrique/Desktop/lab4-bc-enriquealbalateprieto/results/task1/matmul_annotated.cpp" 63 Bucle2
+    "/home/enrique/Desktop/lab4-bc-enriquealbalateprieto/results/task1/ejecutable" main "/home/enrique/Desktop/lab4-bc-enriquealbalateprieto/results/task1/matmul_annotated.cpp" 63 "0x1b13" NATIVE CALL
+    "/lib/x86_64-linux-gnu/libc.so.6" __libc_start_main "/build/glibc-eX1tMB/glibc-2.31/csu/../csu/libc-start.c" 263 "0x27026" NATIVE CALL
+    "/home/enrique/Desktop/lab4-bc-enriquealbalateprieto/results/task1/ejecutable" _start "" -1 "0x128d" NATIVE CALL
+)
+(site Bucle3 2 "/home/enrique/Desktop/lab4-bc-enriquealbalateprieto/results/task1/matmul_annotated.cpp" 79 Bucle3
+    "/home/enrique/Desktop/lab4-bc-enriquealbalateprieto/results/task1/ejecutable" main "/home/enrique/Desktop/lab4-bc-enriquealbalateprieto/results/task1/matmul_annotated.cpp" 79 "0x1bcd" NATIVE CALL
+    "/lib/x86_64-linux-gnu/libc.so.6" __libc_start_main "/build/glibc-eX1tMB/glibc-2.31/csu/../csu/libc-start.c" 263 "0x27026" NATIVE CALL
+    "/home/enrique/Desktop/lab4-bc-enriquealbalateprieto/results/task1/ejecutable" _start "" -1 "0x128d" NATIVE CALL
+)
+
+[ Tasks ]
+(itask itask 0 "/home/enrique/Desktop/lab4-bc-enriquealbalateprieto/results/task1/matmul_annotated.cpp" 50 ""
+    "/home/enrique/Desktop/lab4-bc-enriquealbalateprieto/results/task1/ejecutable" "" "/home/enrique/Desktop/lab4-bc-enriquealbalateprieto/results/task1/matmul_annotated.cpp" 50 "0x1a50" NATIVE CALL
+    "/home/enrique/Desktop/lab4-bc-enriquealbalateprieto/results/task1/ejecutable" main "/home/enrique/Desktop/lab4-bc-enriquealbalateprieto/results/task1/matmul_annotated.cpp" 48 "0x1a2b" NATIVE LOOP
+    "/lib/x86_64-linux-gnu/libc.so.6" __libc_start_main "/build/glibc-eX1tMB/glibc-2.31/csu/../csu/libc-start.c" 263 "0x27026" NATIVE CALL
+    "/home/enrique/Desktop/lab4-bc-enriquealbalateprieto/results/task1/ejecutable" _start "" -1 "0x128d" NATIVE CALL
+)
+
+[ Locks ]
+
+[ Program ]
+(para Bucle1 1 1
+  (comp 437872 0 0 0 0 0)
+  (spawn itask 1 1
+    (comp 217144 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 367550 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 219350 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 234420 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 214000 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 227870 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 225750 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 211670 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 233610 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 209300 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 224510 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 434600 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 218860 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 240100 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 222300 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 228700 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 218210 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 245690 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 236490 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 220050 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 231960 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 224550 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 241750 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 244810 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 219170 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 250450 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 226260 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 244870 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 228070 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 236760 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 235660 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 218750 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 245290 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 223720 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 242570 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 247700 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 216690 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 242830 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 217620 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 240280 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 232610 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 228790 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 235770 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 218420 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 238810 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 210040 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 248240 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 244120 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 216950 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 267340 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 203470 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 240850 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 250700 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 218870 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 241180 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 224470 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 239540 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 223030 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 278350 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 242930 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 209190 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 245800 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 219670 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 243250 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 237410 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 224430 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 234760 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 222460 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 240670 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 242840 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 212890 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 251030 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 218340 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 258660 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 214150 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 207420 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 234670 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 222490 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 238740 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 222880 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 231810 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 243700 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 221440 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 241510 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 212470 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 244500 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 221330 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 242570 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 238610 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 223600 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 230840 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 223690 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 243430 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 244180 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 222260 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 239510 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 211800 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 239850 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 272230 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 220850 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 222410 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 229520 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 237450 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 231520 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 237510 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 228780 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 219060 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 247040 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 212680 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 243260 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 241990 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 221550 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 237510 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 217970 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 238440 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 219060 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 249500 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 241500 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 219940 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 238480 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 210080 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 246600 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 264040 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 225160 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 245090 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 205640 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 236250 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 245530 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 220240 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 238390 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 213320 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 243790 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 213090 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 249120 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 241150 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 209740 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 236280 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 221420 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 235360 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 239300 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 211160 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 243800 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 228460 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 250660 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 214010 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 243640 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 263610 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 222620 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 243190 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 217740 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 200130 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 235740 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 217740 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 238230 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 223220 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 238650 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 214970 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 245530 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 237230 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 218960 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 258900 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 220350 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 236660 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 242550 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 219700 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 230070 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 221370 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 242710 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 559750 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 225760 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 235090 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 220790 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 260920 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 229330 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 236270 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 226620 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 225400 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 245210 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 227800 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 239870 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 229800 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 217380 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 244820 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 220370 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 245620 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 224880 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 238290 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 240450 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 217320 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 246780 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 218610 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 251300 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 230970 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 222790 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 244070 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 210330 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 260520 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 248260 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 221640 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 247590 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 202400 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 488740 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 235050 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 240780 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 231990 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 222800 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 239100 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 222800 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 244050 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 240330 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 208780 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 244520 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 218030 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 244520 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 219280 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 240920 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 231730 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 222770 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 239410 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 223940 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 256320 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 245890 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 220430 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 238740 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 214920 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 207130 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 238120 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 221770 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 235790 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 224940 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 230940 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 220740 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 241890 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 240340 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 223870 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 238530 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 216940 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 242630 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 240210 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 221170 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 229850 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 223130 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 241980 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 222350 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 244680 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 260900 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 220610 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 242790 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 223830 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 240240 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 238250 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 244290 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 235690 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 230550 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 238520 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 230180 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 220220 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 246680 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 216160 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 245940 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 211760 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 245570 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 263420 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 220650 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 237190 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 267450 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 382370 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 377970 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 222340 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 260050 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 208790 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 248280 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 223050 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 247280 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 245340 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 205480 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 236440 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 224800 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 240450 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 237840 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 213470 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 249840 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 216640 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 248320 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 219310 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 228520 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 244730 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 221070 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 230020 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 223830 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 235390 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 277940 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 232490 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 262990 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 216410 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 241550 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 246380 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 220250 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 241280 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 250620 0 0 0 0 0)
+  )
+)
+(para Bucle2 1 1
+  (comp 229550 0 0 0 0 0)
+  (spawn itask 1 1
+    (comp 24480 0 0 0 0 0)
+  )
+  (comp 2 0 0 0 0 0)
+  (spawn itask 1 1
+    (comp 56444 0 0 0 0 0)
+  )
+  (comp 9560 0 0 0 0 0)
+  (spawn itask 1 1
+    (comp 43740 0 0 0 0 0)
+  )
+  (comp 7880 0 0 0 0 0)
+  (spawn itask 1 1
+    (comp 67420 0 0 0 0 0)
+  )
+  (comp 9700 0 0 0 0 0)
+  (spawn itask 1 1
+    (comp 43580 0 0 0 0 0)
+  )
+  (comp 8750 0 0 0 0 0)
+  (spawn itask 1 1
+    (comp 66740 0 0 0 0 0)
+  )
+  (comp 8500 0 0 0 0 0)
+  (spawn itask 1 1
+    (comp 72790 0 0 0 0 0)
+  )
+  (comp 9130 0 0 0 0 0)
+  (spawn itask 1 1
+    (comp 40700 0 0 0 0 0)
+  )
+  (comp 10380 0 0 0 0 0)
+  (spawn itask 1 1
+    (comp 65860 0 0 0 0 0)
+  )
+  (comp 8340 0 0 0 0 0)
+  (spawn itask 1 1
+    (comp 37760 0 0 0 0 0)
+  )
+  (comp 8530 0 0 0 0 0)
+  (spawn itask 1 1
+    (comp 64170 0 0 0 0 0)
+  )
+  (comp 9520 0 0 0 0 0)
+  (spawn itask 1 1
+    (comp 64240 0 0 0 0 0)
+  )
+  (comp 8110 0 0 0 0 0)
+  (spawn itask 1 1
+    (comp 40520 0 0 0 0 0)
+  )
+  (comp 7930 0 0 0 0 0)
+  (spawn itask 1 1
+    (comp 63080 0 0 0 0 0)
+  )
+  (comp 8560 0 0 0 0 0)
+  (spawn itask 1 1
+    (comp 37160 0 0 0 0 0)
+  )
+  (comp 8140 0 0 0 0 0)
+  (spawn itask 1 1
+    (comp 65310 0 0 0 0 0)
+  )
+  (comp 7990 0 0 0 0 0)
+  (spawn itask 1 1
+    (comp 35340 0 0 0 0 0)
+  )
+  (comp 7530 0 0 0 0 0)
+  (spawn itask 1 1
+    (comp 62950 0 0 0 0 0)
+  )
+  (comp 8680 0 0 0 0 0)
+  (spawn itask 1 1
+    (comp 70670 0 0 0 0 0)
+  )
+  (comp 8540 0 0 0 0 0)
+  (spawn itask 1 1
+    (comp 35690 0 0 0 0 0)
+  )
+  (comp 8080 0 0 0 0 0)
+  (spawn itask 1 1
+    (comp 95670 0 0 0 0 0)
+  )
+  (comp 9810 0 0 0 0 0)
+  (spawn itask 1 1
+    (comp 40160 0 0 0 0 0)
+  )
+  (comp 3888 0 0 0 0 0)
+  (spawn itask 1 1
+    (comp 67190 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 67440 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 39190 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 63970 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 42480 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 61910 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 41740 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 62660 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 76060 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 39560 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 69660 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 40940 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 67240 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 64840 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 38030 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 70880 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 42040 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 69650 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 71670 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 40780 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 67470 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 44680 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 107900 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 42840 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 77910 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 71080 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 45210 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 75950 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 44650 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 71640 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 69990 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 45960 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 79540 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 44170 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 70940 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 45850 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 75510 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 76570 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 43130 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 86330 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 45840 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 78880 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 78310 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 43480 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 170490 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 45670 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 147060 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 111660 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 72800 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 134080 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 61850 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 131680 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 62270 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 140430 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 90660 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 44090 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 111760 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 58500 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 128300 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 92640 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 41400 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 86110 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 42870 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 89700 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 39430 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 106070 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 128730 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 82410 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 115510 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 68800 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 104310 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 595650 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 182450 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 186880 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 50810 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 90360 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 89200 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 50580 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 78960 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 48050 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 79590 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 46590 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 72810 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 70990 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 44290 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 73200 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 48350 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 73460 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 73300 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 45870 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 74740 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 45180 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 73620 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 42660 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 81640 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 163280 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 140860 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 159080 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 44720 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 149820 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 132930 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 44100 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 102740 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 53340 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 108480 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 112600 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 52610 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 117870 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 65950 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 116280 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 150250 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 125370 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 102590 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 74760 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 229170 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 117500 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 168880 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 160770 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 133620 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 221230 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 156650 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 139080 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 42510 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 74090 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 104150 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 88340 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 102850 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 23730 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 43861 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 86890 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 20920 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 29461 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 19240 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 27522 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 18890 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 27622 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 58040 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 19140 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 27555 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 19250 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 27977 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 46840 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 19320 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 30722 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 19140 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 29944 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 55910 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 19410 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 27477 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 19010 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 27577 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 19060 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 27944 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 47480 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 20540 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 27744 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 18960 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 27622 0 0 0 0 0)
+  )
+  (spawn itask 4 4
+    (comp 28853 0 0 0 0 0)
+  )
+  (spawn itask 4 4
+    (comp 28853 0 0 0 0 0)
+  )
+  (spawn itask 4 4
+    (comp 28854 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 28854 0 0 0 0 0)
+  )
+  (spawn itask 16 16
+    (comp 27030 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 27031 0 0 0 0 0)
+  )
+  (spawn itask 16 16
+    (comp 30823 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 30824 0 0 0 0 0)
+  )
+  (spawn itask 16 16
+    (comp 50373 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 50374 0 0 0 0 0)
+  )
+  (spawn itask 16 16
+    (comp 27372 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 27373 0 0 0 0 0)
+  )
+  (spawn itask 16 16
+    (comp 29159 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 29160 0 0 0 0 0)
+  )
+  (spawn itask 16 16
+    (comp 27554 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 27555 0 0 0 0 0)
+  )
+  (spawn itask 4 4
+    (comp 30198 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 30199 0 0 0 0 0)
+  )
+)
+(para Bucle3 1 1
+  (comp 277610 0 0 0 0 0)
+  (spawn itask 16 16
+    (comp 9123291 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 9123292 0 0 0 0 0)
+  )
+  (comp 48150 0 0 0 0 0)
+  (spawn itask 16 16
+    (comp 8694337 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 8694338 0 0 0 0 0)
+  )
+  (comp 44680 0 0 0 0 0)
+  (spawn itask 16 16
+    (comp 8981681 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 8981682 0 0 0 0 0)
+  )
+  (comp 45260 0 0 0 0 0)
+  (spawn itask 16 16
+    (comp 8842485 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 8842486 0 0 0 0 0)
+  )
+  (comp 43730 0 0 0 0 0)
+  (spawn itask 16 16
+    (comp 8822147 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 8822148 0 0 0 0 0)
+  )
+  (comp 42260 0 0 0 0 0)
+  (spawn itask 16 16
+    (comp 8622732 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 8622733 0 0 0 0 0)
+  )
+  (comp 17640 0 0 0 0 0)
+  (spawn itask 16 16
+    (comp 8837035 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 8837036 0 0 0 0 0)
+  )
+  (comp 40553 0 0 0 0 0)
+  (spawn itask 16 16
+    (comp 8933152 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 8933153 0 0 0 0 0)
+  )
+  (spawn itask 16 16
+    (comp 8732812 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 8732813 0 0 0 0 0)
+  )
+  (spawn itask 16 16
+    (comp 8596165 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 8596166 0 0 0 0 0)
+  )
+  (spawn itask 16 16
+    (comp 8849218 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 8849219 0 0 0 0 0)
+  )
+  (spawn itask 16 16
+    (comp 8785342 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 8785343 0 0 0 0 0)
+  )
+  (spawn itask 16 16
+    (comp 8881104 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 8881105 0 0 0 0 0)
+  )
+  (spawn itask 16 16
+    (comp 8675122 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 8675123 0 0 0 0 0)
+  )
+  (spawn itask 16 16
+    (comp 8722356 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 8722357 0 0 0 0 0)
+  )
+  (spawn itask 16 16
+    (comp 8956432 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 8956433 0 0 0 0 0)
+  )
+  (spawn itask 16 16
+    (comp 8757508 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 8757509 0 0 0 0 0)
+  )
+  (spawn itask 4 4
+    (comp 8609058 0 0 0 0 0)
+  )
+  (spawn itask 4 4
+    (comp 8609058 0 0 0 0 0)
+  )
+  (spawn itask 2 2
+    (comp 8609058 0 0 0 0 0)
+  )
+  (spawn itask 1 1
+    (comp 8609059 0 0 0 0 0)
+  )
+)
+(comp 71579966 0 0 0 0 0)
+
+[ End ]
