@@ -1,0 +1,1 @@
+/home/enrique/intel/oneapi/advisor/2022.3.0/bin64/advisor -collect suitability -mrte-mode=auto -interval=10 -data-limit=500 -project-dir /home/enrique/intel/advixe/projects/lab4Tarea2 --app-working-dir=/home/enrique/Desktop/lab4-bc-enriquealbalateprieto/results/task1 -- /home/enrique/Desktop/lab4-bc-enriquealbalateprieto/results/task1/ejecutable 1

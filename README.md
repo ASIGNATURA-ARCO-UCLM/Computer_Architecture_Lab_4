@@ -13,3 +13,6 @@ y análisis.
 2. Tarea 2 - **Análisis de Threading**: En esta tarea se realizará un análisis de threading y se responderán a preguntas generales sobre el resultado [Enlace](results/task2/README.md)
 
 3. Tarea 3 - **Paralelización del código con OpenMP**: En base a la información del análisis el código será paralelizado con OpenMP. [Enlace](results/task3/README.md)
+
+# Participantes
+El nombre del repositorio se puso automaticamente pero realmente estamos trabajando **Enrique Albalate Prieto** y **Pedro Campos Castellanos**
