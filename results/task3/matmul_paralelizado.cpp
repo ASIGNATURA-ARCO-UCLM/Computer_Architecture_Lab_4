@@ -33,29 +33,30 @@ int main()
     cout << "  Order N                 = " << n << "\n";
 
     // TODO: Print the number of processors avilable
+    cout << "  Numero de procesadores disponibles " << omp_get_num_procs() << "\n";
     // TODO: Print the number of threads available
+    cout << "  Numero de hilos disponibles " << omp_get_num_threads() << "\n";
 
     //
     //  Loop 1: Evaluate A.
     //
     s = 1.0 / sqrt((double)(n));
 
-    // TODO: Paralellize 
-    omp_set_num_threads(20);
-    
+    // TODO: Paralellize
     #pragma omp parallel for collapse(2)
     for (i = 0; i < n; i++)
-    {   
+    {
         for (j = 0; j < n; j++)
         {
             angle = 2.0 * pi * i * j / (double)n;
             a[i][j] = s * (sin(angle) + cos(angle));
         }
     }
+
     //
     //  Loop 1: Evaluate B.
     //
-    // TODO: Paralellize 
+    // TODO: Paralellize
     #pragma omp parallel for collapse(2)
     for (i = 0; i < n; i++)
     {
@@ -64,11 +65,11 @@ int main()
             b[i][j] = a[i][j];
         }
     }
- 
+
     //
     //  Loop 3: Compute C = A * B.
     //
-    // TODO: Paralellize 
+    // TODO: Paralellize
     wtime = omp_get_wtime();
     #pragma omp parallel for collapse(3)
     for (i = 0; i < n; i++)

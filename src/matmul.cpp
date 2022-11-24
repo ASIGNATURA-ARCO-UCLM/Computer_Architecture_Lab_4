@@ -41,7 +41,7 @@ int main()
     s = 1.0 / sqrt((double)(n));
 
 
-    // TODO: Paralellize 
+    // TODO: Paralellize
     for (i = 0; i < n; i++)
     {
         for (j = 0; j < n; j++)
@@ -53,7 +53,7 @@ int main()
     //
     //  Loop 1: Evaluate B.
     //
-    // TODO: Paralellize 
+    // TODO: Paralellize
     for (i = 0; i < n; i++)
     {
         for (j = 0; j < n; j++)
@@ -65,7 +65,7 @@ int main()
     //
     //  Loop 3: Compute C = A * B.
     //
-    // TODO: Paralellize 
+    // TODO: Paralellize
     wtime = omp_get_wtime();
     for (i = 0; i < n; i++)
     {
