@@ -12,7 +12,7 @@
 
         |   |Enrique|Enrique|Pedro|Pedro|
         |**Cantidad hilos**|**Paralelo**|**Secuencial (no aplica hilos)**|**Paralelo**|**Secuencial (no aplica hilos)**|
-        |:-: | :-: | :-: |
+        | :-: | :-: | :-: |
         |2|||||
         |4|||||
         |8|||||
