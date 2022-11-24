@@ -9,3 +9,14 @@
     * ¿Cómo lo has comprobado?
 
 * Realiza mediciones de tiempo para 2, 4, 8, 16, 32 y 64 hilos y añade los resultados de tiempo en una tabla junto a los resultados secuenciales. Además añade la ganancia obtenida por cada ejecución en comparación con la secuencial ¿Estos resultados se corresponden o se parecen a los estimados por intel advisor? Justifica tu respuesta.
+
+        |   |Enrique|Enrique|Pedro|Pedro|
+        |**Cantidad hilos**|**Paralelo**|**Secuencial (no aplica hilos)**|**Paralelo**|**Secuencial (no aplica hilos)**|
+        |:-: | :-: | :-: |
+        |2|||||
+        |4|||||
+        |8|||||
+        |16|||||
+        |32|||||
+        |64|||||
+

@@ -42,6 +42,6 @@
 
     * ¿Cuál de los bucles definidos en el código se beneficia más del incremento de CPUs? ¿Cómo afectaría a la ganancia de este Site si, usando el máximo número de CPUs de la simulación, en vez de usar arrays de tamaño 300 lo aumentamos a 37500? Indica cómo has obtenido este nueva ganancia.
 
-        Es el tercer bucle el que más se beneficia del incremento de CPUs. La ganancia, usando el máximo número de CPUs de la simulación con arrays de tamaño 37500 pasaría de 58,33 (con el 8 CPUs y 300 el tamaño de los arrays)a  
+        Es el tercer bucle el que más se beneficia del incremento de CPUs. La ganancia, usando el máximo número de CPUs de la simulación con arrays de tamaño 37500 pasaría de 58,33 (con el el máximo número de CPUs y 300 el tamaño de los arrays) a 
 
         Para llegar a ese dato, lo primero que hay que hacer es cambiar el valor de la constante SIZE de 300 a 37500 y compilarlo de nuevo. Una vez contemos con su ejecutable, lanzaremos la herramienta Intel Advisor para realizar un proyecto en el que lo seleccionemos como archivo fuente. Tras elegir la opción de "threading", se lanzará un análisis marcando la opción Suitability, que nos permitirá acceder al gráfico que representa la ganancia de rendimiento en función del número de CPUs usadas. Por último, simplemente estableceremos la opción "CPU Count" a 64, por ser ésta cantidad la máxima seleccionabe.
