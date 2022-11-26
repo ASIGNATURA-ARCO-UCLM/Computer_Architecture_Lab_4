@@ -17,12 +17,11 @@
 
     | Número de hilos | Tiempo | Ganancia |
     |--| -- | -- |
-    |2|0,24 segundos| 
-    |4|0,12 segundos|
-    |8|0,09 segundos|
-    |16|[0,12 - 0,08] segundos|
-    |32|[0,12 - 0,08] segundos|
-    |64|[0,12 - 0,09] segundos|
+    |2|0,0065 segundos|2,06|
+    |4|0,004 segundos|1,53|
+    |8|[0,0055 - 0,004] segundos|1,53|
+    |16|0,006 segundos|1,04|
+    |32|0,0065 segundos|1,09|
+    |64|0,007 segundos|1,04|
     
     Mientras que el resultado secuencial oscila entre los 0,006 y 0,005 segundos de media. Todos estos resultados se han obtenido con la opción -xCORE-AVX2     de compilación.
-
