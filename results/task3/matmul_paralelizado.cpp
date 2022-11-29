@@ -71,14 +71,17 @@ int main()
     //
     // TODO: Paralellize
     wtime = omp_get_wtime();
-    #pragma omp parallel for collapse(3)
-    for (i = 0; i < n; i++)
+    #pragma omp parallel
     {
-        for (j = 0; j < n; j++)
+        #pragma omp for simd
+         for (i = 0; i < n; i++)
         {
-            for (k = 0; k < n; k++)
+            for (j = 0; j < n; j++)
             {
-                c[i][j] = c[i][j] + a[i][k] * b[k][j];
+                for (k = 0; k < n; k++)
+                {   
+                    c[i][j] = c[i][j] + a[i][k] * b[k][j];
+                }
             }
         }
     }
