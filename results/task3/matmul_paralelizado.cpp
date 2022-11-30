@@ -41,11 +41,12 @@ int main()
     s = 1.0 / sqrt((double)(n));
 
     // TODO: Paralellize 
-    omp_set_num_threads(20);
-    
-    #pragma omp parallel for collapse(2)
+    omp_set_num_threads(64);
+
+    #pragma omp parallel for //collapse(2)
     for (i = 0; i < n; i++)
     {   
+        printf("\n\nHILOS CREADOS: %d\n\n",omp_get_num_threads());
         for (j = 0; j < n; j++)
         {
             angle = 2.0 * pi * i * j / (double)n;
