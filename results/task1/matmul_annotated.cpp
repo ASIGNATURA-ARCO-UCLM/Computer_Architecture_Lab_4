@@ -43,7 +43,7 @@ int main()
     s = 1.0 / sqrt((double)(n));
 
 
-    // TODO: Paralellize 
+    // TODO: Paralellize
     ANNOTATE_SITE_BEGIN(Bucle1);
     for (i = 0; i < n; i++)
     {
@@ -59,7 +59,7 @@ int main()
     //
     //  Loop 1: Evaluate B.
     //
-    // TODO: Paralellize 
+    // TODO: Paralellize
     ANNOTATE_SITE_BEGIN(Bucle2);
     for (i = 0; i < n; i++)
     {
@@ -74,7 +74,7 @@ int main()
     //
     //  Loop 3: Compute C = A * B.
     //
-    // TODO: Paralellize 
+    // TODO: Paralellize
     wtime = omp_get_wtime();
     ANNOTATE_SITE_BEGIN(Bucle3);
     for (i = 0; i < n; i++)
@@ -124,5 +124,4 @@ void timestamp()
     return;
 #undef TIME_SIZE
 }
-//g++ -g -openmp complexmul_unit_stride.cpp -lm -o ejecutableVectorizado -I ~/intel/oneapi/advisor/2022.3.0/include -lgomp -ldl
 //g++ -g -openmp matmul_annotated.cpp -lm -o ejecutable -I ~/intel/oneapi/advisor/2022.3.0/include -lgomp -ldl
