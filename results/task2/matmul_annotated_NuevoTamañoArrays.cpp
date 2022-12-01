@@ -13,7 +13,7 @@ void timestamp();
 
 int main()
 {
-#define SIZE 37500
+#define SIZE 300
     auto a = new double[SIZE][SIZE];
     double angle;
     auto b = new double[SIZE][SIZE];
