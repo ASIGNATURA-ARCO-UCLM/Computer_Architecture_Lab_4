@@ -5,7 +5,7 @@
 
 * ¿Cuántas hebras hay disponibles? ¿A qué crees que se debe este resultado?
    
-   Uno, creemos que es por temas de eficiencia por no hacer un trabajo creando hilos extra que luego a lo mejor ni usa. Además si vemos cuantos hilos disponibles dentro de un bucle que hemos paralelizado si que pone mas de uno.
+   Uno, creemos que es por temas de eficiencia por no hacer un trabajo creando hilos extra que luego a lo mejor ni usa. A pesar de esto, si vemos cuantos hilos disponibles dentro de un bucle que hemos paralelizado sí que pone mas de uno.
 
 * Comprueba que la ejecucion paralela y secuencial es la misma. Recuerda que estás trabajando con números decimales
     * ¿Cómo lo has comprobado?
@@ -23,5 +23,8 @@
     |32|0,0065 segundos|1,09|B1: 2,08 / B2: 0,26 / B3: 28,65|
     |64|0,007 segundos|1,04|B1: 1,65 / B2: 0,20 / B3: 45,57|
     
-    Mientras que el resultado secuencial oscila entre los 0,006 y 0,005 segundos de media. Todos estos resultados se han obtenido con la opción -xCORE-AVX2     de compilación.
+    El resultado secuencial oscila entre los 0,006 y 0,005 segundos de media. Todos estos resultados se han obtenido con la opción -xCORE-AVX2     de compilación.
+    Los valores obtenidos, dejando de lado su ligera variación con respecto a los ofrecidos por Intel Advisor, se comportan de igual manera. Todas las medidas de ganacia relativas al primer y segundo bucle siempre se mantienen por debajo de las del tercero, y a partir de cierto punto cesa su crecimiento para comenzar a disminuir poco a poco. Por otro lado, las medidas del tercer bucle son crecientes paralelamente al incremento del número de CPUs usadas, algo predecible consultanto el informe de gráficas que nos ofrece la herramienta antes mencionada.
+    
+    
 
